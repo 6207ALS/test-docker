@@ -1,0 +1,11 @@
+version: v1alpha1
+web:
+    build:
+        type: Dockerfile
+        build_args: []
+    output:
+        type: image
+        image:
+            defaultPort: 5000
+    proxy:
+        rules: []
